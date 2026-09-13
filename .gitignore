@@ -1,0 +1,10 @@
+# Microsoft Office temporary files
+~$*.xlsm
+~$*.xlsx
+
+# Generated reports
+*.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
