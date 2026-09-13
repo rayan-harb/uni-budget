@@ -19,6 +19,28 @@ UniBudget is an Excel/VBA personal-finance platform designed to move beyond pass
 
 VBA forms provide guided data entry while formulas, PivotTables, charts, and macros automate reporting and analysis. The result behaves more like a lightweight desktop application than a conventional spreadsheet.
 
+The included workbook uses fictional demonstration data. It contains no real personal or financial information.
+
+## Download and run
+
+[**Download UniBudget.xlsm**](UniBudget.xlsm)
+
+1. Download the workbook and open it in the desktop version of Microsoft Excel.
+2. If Excel displays a security warning, select **Enable Content** to allow the VBA features to run.
+3. Use the workbook's buttons and forms to add transactions, create goals, refresh the dashboard, and run scenarios.
+
+> Excel for the web can display the workbook, but it cannot run its VBA macros. Use desktop Excel for the complete experience.
+
+## Interface
+
+### Financial dashboard
+
+![UniBudget financial dashboard with summary metrics, charts, and projections](assets/dashboard.webp)
+
+### Savings goals
+
+![UniBudget savings-goal tracker using fictional demonstration data](assets/goals.webp)
+
 ## Core capabilities
 
 | Capability | Implementation |
@@ -96,13 +118,13 @@ For the component and data-flow breakdown, see [System Architecture](docs/archit
 | Dashboard, projections, and charts | Complete |
 | Scenario and recommendation macros | Complete |
 | Portfolio documentation | Complete |
-| Optimized public demo workbook | In progress |
+| Public demo workbook | Complete |
+| Pivot source-range optimization | Planned |
 | Exported VBA source modules | Planned |
 
 ## Planned improvements
 
 - Limit analytical source ranges to the populated dataset for a smaller PivotTable cache
-- Package a fictional demonstration dataset for public download
 - Export VBA modules as reviewable `.bas` and `.frm` files
 - Add formula and macro test cases for boundary conditions
 - Publish a versioned Excel release with a generated PDF example
